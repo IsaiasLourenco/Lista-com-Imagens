@@ -1,0 +1,33 @@
+.pictures{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap ;
+    margin: 30px 0;
+}
+
+.pictures .picture{
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.pictures .picture img{
+    width: 100%;
+}
+.informations{
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 40px;
+    left: 20px;
+}
+
+.pictures .picture .informations .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.pictures .picture .informations .subtitle{
+    font-size: 17px;
+    font-weight: 300;
+}
