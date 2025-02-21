@@ -1,6 +1,7 @@
 .pictures{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 6px;
     flex-wrap: wrap ;
     margin: 30px 0;
 }
