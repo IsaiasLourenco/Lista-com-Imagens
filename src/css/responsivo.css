@@ -1,8 +1,24 @@
-@media(max-width: 1350px) {
+@media (max-width: 1350px) {
     .pictures {
-        max-width: 900px;
-        margin: 30px 0;
-        justify-content: space-evenly;
-        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        /* Coloca os elementos em coluna */
+        align-items: center;
+        /* Centraliza os elementos */
+
+        width: 100%;
+    }
+
+    .pictures .picture {
+        width: 90%;
+        /* Ajusta a largura para caber melhor na tela */
+        max-width: 400px;
+        /* Evita que fique muito grande */
+        margin-bottom: 20px;
+    }
+
+    /* Remove margin da última imagem para não criar espaço extra */
+    .pictures .picture:last-child {
+        margin-bottom: 0;
     }
 }

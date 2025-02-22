@@ -1,3 +1,11 @@
+main {
+    display: flex;
+    min-width: 100vh; /*preenche toda largura q o usuario está vendo*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* e aqui preenche toda altura */
+}
+
 .pictures{
     display: flex;
     justify-content: center;
